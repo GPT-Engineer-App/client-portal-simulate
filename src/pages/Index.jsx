@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, Button, FormControl, FormLabel, Input, VStack, useToast } from "@chakra-ui/react";
+import { Box, Button, FormControl, FormLabel, Input, VStack, useToast, Image } from "@chakra-ui/react";
 
 const Index = () => {
   const [username, setUsername] = useState("");
