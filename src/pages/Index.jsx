@@ -9,7 +9,7 @@ const Index = () => {
   const handleLogin = () => {
     if (username === "admin" && password === "123") {
       window.location.href = "http://54.169.246.202/ui/admin";
-    } else if (username === "merchant" && password === "123") {
+    } else if (username === "member" && password === "123") {
       window.location.href = "http://54.169.246.202/ui/member";
     } else {
       toast({
