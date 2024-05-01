@@ -24,6 +24,7 @@ const Index = () => {
 
   return (
     <Box p={8} maxWidth="500px" mx="auto">
+      <Image src="https://parsefiles.back4app.com/FSFjgTgpaoybzvmMhWLHAiSP9GfWZzMZFubLFSnN/23b09563476bc933b5c3240813d712b1_8DE98715-5EDD-415E-B9FE-8121E6FF8AD8.webp" alt="Company Logo" mx="auto" my={4} />
       <VStack spacing={4} as="form" onSubmit={(e) => e.preventDefault()}>
         <FormControl isRequired>
           <FormLabel htmlFor="username">Username</FormLabel>
